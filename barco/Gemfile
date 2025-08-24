@@ -1,0 +1,15 @@
+source "https://rubygems.org"
+
+gem "sinatra"
+gem "rackup"
+gem "puma"
+gem "rest-client"
+gem "parallel"
+gem "httpx"
+gem "json"
+gem "async"
+gem "async-http"
+
+gem "stackprof"
+gem "memory_profiler"
+gem "benchmark"

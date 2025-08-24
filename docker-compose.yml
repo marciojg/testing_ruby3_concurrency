@@ -1,0 +1,25 @@
+version: "3.9"
+
+services:
+  barco:
+    build: ./barco
+    volumes:
+      - ./barco:/app
+    ports:
+      - "4001:4000"
+    networks:
+      - benchmark_net
+    mem_limit: 300m # k8s requests
+    cpus: 0.1   # 100m equivalente k8s requests
+  porto1:
+    build: ./porto
+    ports:
+      - "4002:4000"
+    networks:
+      - benchmark_net
+    mem_limit: 300m # k8s requests
+    cpus: 0.1   # 100m equivalente k8s requests
+
+networks:
+  benchmark_net:
+    driver: bridge

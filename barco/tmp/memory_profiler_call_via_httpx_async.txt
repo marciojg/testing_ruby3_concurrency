@@ -1,0 +1,838 @@
+Total allocated: 926680 bytes (8585 objects)
+Total retained:  207824 bytes (2556 objects)
+
+allocated memory by gem
+-----------------------------------
+    756456  httpx-1.5.1
+     59136  uri
+     39040  ipaddr
+     38776  async-2.27.4
+     11520  other
+     10352  io-event-1.12.1
+      4480  socket
+      3840  app/app
+      2720  fiber-annotation-0.2.0
+       320  puma-6.6.1
+        40  sinatra-4.1.1
+
+allocated memory by file
+-----------------------------------
+    290320  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb
+    102528  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb
+     84968  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb
+     49408  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb
+     44160  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb
+     39040  /usr/local/lib/ruby/3.4.0/ipaddr.rb
+     33504  /usr/local/bundle/gems/async-2.27.4/lib/async/task.rb
+     32512  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb
+     25600  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb
+     23888  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb
+     20992  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/io/tcp.rb
+     13568  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/native.rb
+     12800  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/multi.rb
+     11936  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/session.rb
+     11520  /usr/local/lib/ruby/3.4.0/uri/http.rb
+     11520  <internal:hash>
+     10240  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request.rb
+      9216  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/options.rb
+      9088  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response.rb
+      8960  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/resolver.rb
+      8704  /usr/local/lib/ruby/3.4.0/uri/generic.rb
+      8320  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/selector.rb
+      7040  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver.rb
+      6400  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request/body.rb
+      6400  /usr/local/lib/ruby/3.4.0/uri/common.rb
+      6296  /usr/local/bundle/gems/io-event-1.12.1/lib/io/event/selector.rb
+      5120  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/body.rb
+      4480  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/chainable.rb
+      4480  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/timers.rb
+      4480  /usr/local/lib/ruby/3.4.0/socket.rb
+      3920  /usr/local/bundle/gems/io-event-1.12.1/lib/io/event/timers.rb
+      3840  /app/app.rb
+      3360  /usr/local/bundle/gems/async-2.27.4/lib/kernel/async.rb
+      2944  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/buffer.rb
+      2720  /usr/local/bundle/gems/fiber-annotation-0.2.0/lib/fiber/annotation.rb
+      1752  /usr/local/bundle/gems/async-2.27.4/lib/async/scheduler.rb
+       160  /usr/local/bundle/gems/async-2.27.4/lib/async/node.rb
+       160  /usr/local/bundle/gems/puma-6.6.1/lib/puma/cluster/worker.rb
+       160  /usr/local/bundle/gems/puma-6.6.1/lib/puma/thread_pool.rb
+       136  /usr/local/bundle/gems/io-event-1.12.1/lib/io/event/priority_heap.rb
+        40  /usr/local/bundle/gems/sinatra-4.1.1/lib/sinatra/indifferent_hash.rb
+
+allocated memory by location
+-----------------------------------
+    289040  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb:33
+     52480  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb:6
+     46848  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb:31
+     25704  /usr/local/bundle/gems/async-2.27.4/lib/async/task.rb:425
+     19200  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+     17280  /usr/local/lib/ruby/3.4.0/ipaddr.rb:709
+     17152  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:85
+     13440  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:108
+     12800  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+     12800  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:79
+     11520  <internal:hash>:38
+     10944  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+      9000  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+      8960  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:106
+      8960  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:83
+      8192  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/io/tcp.rb:130
+      7808  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:60
+      7680  /usr/local/lib/ruby/3.4.0/ipaddr.rb:784
+      6400  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:69
+      6400  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request/body.rb:14
+      6400  /usr/local/lib/ruby/3.4.0/ipaddr.rb:782
+      6400  /usr/local/lib/ruby/3.4.0/uri/http.rb:101
+      6296  /usr/local/bundle/gems/io-event-1.12.1/lib/io/event/selector.rb:39
+      5760  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:386
+      5376  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/options.rb:269
+      5120  /usr/local/bundle/gems/async-2.27.4/lib/async/task.rb:208
+      5120  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:129
+      5120  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:26
+      5120  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:157
+      5120  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/multi.rb:20
+      5120  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/selector.rb:87
+      5120  /usr/local/lib/ruby/3.4.0/ipaddr.rb:657
+      5120  /usr/local/lib/ruby/3.4.0/uri/common.rb:159
+      5120  /usr/local/lib/ruby/3.4.0/uri/http.rb:120
+      5120  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:102
+      5120  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:135
+      4736  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:15
+      4608  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/native.rb:37
+      4608  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response.rb:233
+      4480  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:233
+      4480  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/multi.rb:68
+      4096  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:180
+      3968  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/io/tcp.rb:183
+      3840  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:346
+      3840  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver.rb:98
+      3840  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/body.rb:219
+      3584  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:31
+      3328  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:260
+      3200  /app/app.rb:151
+      3200  /usr/local/bundle/gems/async-2.27.4/lib/kernel/async.rb:26
+
+allocated memory by class
+-----------------------------------
+    426208  String
+    135224  Array
+    124384  Hash
+     83440  Proc
+     25344  MatchData
+     20264  Fiber
+     18560  Range
+     12800  Enumerator
+      7680  Method
+      6296  IO::Event::Selector::EPoll
+      5120  HTTPX::Connection(plugin)
+      5120  HTTPX::Resolver::Native
+      5120  IPAddr
+      5120  URI::HTTP
+      3968  Socket
+      2720  Async::Task
+      2560  HTTPX::Connection::HTTP1
+      2560  HTTPX::Parser::HTTP1
+      2560  HTTPX::Pool(plugin)
+      2560  HTTPX::Request(plugin)
+      2560  HTTPX::Response(plugin)
+      2560  HTTPX::Response::Body(plugin)
+      2560  HTTPX::TCP
+      2304  Thread::Mutex
+      2048  Thread::ConditionVariable
+      1920  HTTPX::Buffer
+      1280  HTTPX::Headers(plugin)
+      1280  HTTPX::Request::Body(plugin)
+      1280  HTTPX::Resolver::Multi
+      1280  HTTPX::Response::Buffer
+      1280  HTTPX::Session
+      1280  HTTPX::Timers::Timer
+      1280  IO::Event::Timers::Handle
+      1280  StringIO
+       640  Float
+       640  HTTPX::ContentType
+       640  HTTPX::Selector
+       640  HTTPX::Timers
+       640  HTTPX::Timers::Interval
+       640  IPAddr::InvalidAddressError
+       640  Thread::Backtrace
+       160  Async::Children
+       160  Async::Reactor
+        40  IO::Event::PriorityHeap
+        40  IO::Event::Timers
+
+allocated objects by gem
+-----------------------------------
+      6708  httpx-1.5.1
+       720  uri
+       608  ipaddr
+       180  async-2.27.4
+       144  other
+        80  socket
+        68  io-event-1.12.1
+        37  app/app
+        34  fiber-annotation-0.2.0
+         5  puma-6.6.1
+         1  sinatra-4.1.1
+
+allocated objects by file
+-----------------------------------
+      1377  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb
+      1296  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb
+       912  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb
+       656  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb
+       608  /usr/local/lib/ruby/3.4.0/ipaddr.rb
+       480  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb
+       256  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb
+       224  /usr/local/lib/ruby/3.4.0/uri/http.rb
+       208  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request.rb
+       193  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb
+       176  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb
+       176  /usr/local/lib/ruby/3.4.0/uri/generic.rb
+       162  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/session.rb
+       160  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/io/tcp.rb
+       144  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/native.rb
+       144  <internal:hash>
+       133  /usr/local/bundle/gems/async-2.27.4/lib/async/task.rb
+       128  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/resolver.rb
+       112  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver.rb
+       112  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/multi.rb
+       112  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response.rb
+       112  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/selector.rb
+       112  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/timers.rb
+        80  /usr/local/lib/ruby/3.4.0/socket.rb
+        66  /usr/local/bundle/gems/io-event-1.12.1/lib/io/event/timers.rb
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/options.rb
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/body.rb
+        64  /usr/local/lib/ruby/3.4.0/uri/common.rb
+        48  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/chainable.rb
+        48  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request/body.rb
+        37  /app/app.rb
+        34  /usr/local/bundle/gems/fiber-annotation-0.2.0/lib/fiber/annotation.rb
+        33  /usr/local/bundle/gems/async-2.27.4/lib/kernel/async.rb
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/buffer.rb
+        12  /usr/local/bundle/gems/async-2.27.4/lib/async/scheduler.rb
+         4  /usr/local/bundle/gems/puma-6.6.1/lib/puma/thread_pool.rb
+         2  /usr/local/bundle/gems/async-2.27.4/lib/async/node.rb
+         1  /usr/local/bundle/gems/io-event-1.12.1/lib/io/event/priority_heap.rb
+         1  /usr/local/bundle/gems/io-event-1.12.1/lib/io/event/selector.rb
+         1  /usr/local/bundle/gems/puma-6.6.1/lib/puma/cluster/worker.rb
+         1  /usr/local/bundle/gems/sinatra-4.1.1/lib/sinatra/indifferent_hash.rb
+
+allocated objects by location
+-----------------------------------
+       656  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb:6
+       560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb:31
+       464  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+       272  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+       240  /usr/local/lib/ruby/3.4.0/ipaddr.rb:709
+       224  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+       224  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:79
+       224  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:83
+       193  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+       192  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:106
+       160  /usr/local/lib/ruby/3.4.0/ipaddr.rb:784
+       160  /usr/local/lib/ruby/3.4.0/uri/http.rb:101
+       144  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb:33
+       144  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:108
+       144  <internal:hash>:38
+       128  /usr/local/lib/ruby/3.4.0/ipaddr.rb:657
+       112  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:233
+        80  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb:19
+        80  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:386
+        80  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:43
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:346
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:62
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:65
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request.rb:297
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/multi.rb:68
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/native.rb:37
+        64  /usr/local/lib/ruby/3.4.0/uri/http.rb:120
+        64  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:85
+        51  /usr/local/bundle/gems/async-2.27.4/lib/async/task.rb:425
+        48  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:119
+        48  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:111
+        48  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:71
+        48  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:69
+        48  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request/body.rb:14
+        48  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver.rb:98
+        48  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response.rb:233
+        48  /usr/local/lib/ruby/3.4.0/ipaddr.rb:742
+        34  /usr/local/bundle/gems/fiber-annotation-0.2.0/lib/fiber/annotation.rb:15
+        32  /app/app.rb:151
+        32  /usr/local/bundle/gems/async-2.27.4/lib/async/task.rb:208
+        32  /usr/local/bundle/gems/async-2.27.4/lib/kernel/async.rb:26
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb:58
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/chainable.rb:17
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:582
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:65
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:935
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:260
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:129
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:135
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:169
+
+allocated objects by class
+-----------------------------------
+      2853  String
+      2587  Array
+      1043  Proc
+       670  Hash
+       464  Range
+        96  MatchData
+        96  Method
+        80  Enumerator
+        64  IPAddr
+        48  HTTPX::Buffer
+        32  HTTPX::Headers(plugin)
+        32  HTTPX::Timers::Timer
+        32  IO::Event::Timers::Handle
+        32  Thread::ConditionVariable
+        32  Thread::Mutex
+        32  URI::HTTP
+        17  Async::Task
+        17  Fiber
+        16  Float
+        16  HTTPX::Connection(plugin)
+        16  HTTPX::Connection::HTTP1
+        16  HTTPX::ContentType
+        16  HTTPX::Parser::HTTP1
+        16  HTTPX::Pool(plugin)
+        16  HTTPX::Request(plugin)
+        16  HTTPX::Request::Body(plugin)
+        16  HTTPX::Resolver::Multi
+        16  HTTPX::Resolver::Native
+        16  HTTPX::Response(plugin)
+        16  HTTPX::Response::Body(plugin)
+        16  HTTPX::Response::Buffer
+        16  HTTPX::Selector
+        16  HTTPX::Session
+        16  HTTPX::TCP
+        16  HTTPX::Timers
+        16  HTTPX::Timers::Interval
+        16  IPAddr::InvalidAddressError
+        16  Socket
+        16  StringIO
+        16  Thread::Backtrace
+         2  Async::Children
+         1  Async::Reactor
+         1  IO::Event::PriorityHeap
+         1  IO::Event::Selector::EPoll
+         1  IO::Event::Timers
+
+retained memory by gem
+-----------------------------------
+    189384  httpx-1.5.1
+     10320  uri
+      7680  other
+       200  app/app
+       160  puma-6.6.1
+        80  socket
+
+retained memory by file
+-----------------------------------
+     94848  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb
+     17872  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb
+     13440  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb
+     12424  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb
+      8360  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb
+      8096  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/session.rb
+      7680  <internal:hash>
+      7040  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb
+      7040  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/io/tcp.rb
+      5120  /usr/local/lib/ruby/3.4.0/uri/common.rb
+      3880  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver.rb
+      2944  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/buffer.rb
+      2640  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request.rb
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response.rb
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/timers.rb
+      1920  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/body.rb
+      1280  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb
+      1280  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/chainable.rb
+      1280  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request/body.rb
+      1280  /usr/local/lib/ruby/3.4.0/uri/generic.rb
+      1280  /usr/local/lib/ruby/3.4.0/uri/http.rb
+       200  /app/app.rb
+       160  /usr/local/bundle/gems/puma-6.6.1/lib/puma/cluster/worker.rb
+        80  /usr/local/lib/ruby/3.4.0/socket.rb
+
+retained memory by location
+-----------------------------------
+     52480  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb:6
+     42368  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb:31
+      7680  <internal:hash>:38
+      5120  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:157
+      5120  /usr/local/lib/ruby/3.4.0/uri/common.rb:159
+      4704  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+      3968  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/io/tcp.rb:183
+      3880  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+      3840  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver.rb:98
+      3584  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:31
+      3072  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/io/tcp.rb:18
+      2944  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/buffer.rb:19
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:563
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:582
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:65
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:820
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:117
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:21
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:19
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:45
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:26
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:24
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:30
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response.rb:69
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/session.rb:120
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/session.rb:19
+      2560  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/session.rb:273
+      1280  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/chainable.rb:53
+      1280  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:119
+      1280  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:169
+      1280  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request/body.rb:14
+      1280  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/body.rb:219
+      1280  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/timers.rb:28
+      1280  /usr/local/lib/ruby/3.4.0/uri/generic.rb:335
+      1280  /usr/local/lib/ruby/3.4.0/uri/http.rb:120
+      1280  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:104
+      1280  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:107
+      1152  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:25
+      1152  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:27
+      1024  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:29
+       640  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb:33
+       640  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb:58
+       640  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:58
+       640  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:61
+       640  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:62
+       640  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:63
+       640  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:898
+       640  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:23
+       640  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:24
+       640  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:25
+
+retained memory by class
+-----------------------------------
+     64000  Proc
+     38304  Hash
+     35312  Array
+     16448  String
+      5120  HTTPX::Connection(plugin)
+      5120  URI::HTTP
+      3968  Socket
+      3840  IPAddr
+      3840  Method
+      2560  HTTPX::Connection::HTTP1
+      2560  HTTPX::Parser::HTTP1
+      2560  HTTPX::Pool(plugin)
+      2560  HTTPX::Request(plugin)
+      2560  HTTPX::Response(plugin)
+      2560  HTTPX::Response::Body(plugin)
+      2560  HTTPX::TCP
+      2304  Thread::Mutex
+      2048  Thread::ConditionVariable
+      1280  HTTPX::Buffer
+      1280  HTTPX::Headers(plugin)
+      1280  HTTPX::Request::Body(plugin)
+      1280  HTTPX::Response::Buffer
+      1280  HTTPX::Session
+      1280  HTTPX::Timers::Timer
+      1280  StringIO
+       640  HTTPX::Timers::Interval
+
+retained objects by gem
+-----------------------------------
+      2312  httpx-1.5.1
+       145  uri
+        96  other
+         1  app/app
+         1  puma-6.6.1
+         1  socket
+
+retained objects by file
+-----------------------------------
+      1152  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb
+       243  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb
+       176  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb
+       145  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb
+        97  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb
+        96  <internal:hash>
+        80  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb
+        66  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/session.rb
+        65  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request.rb
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/timers.rb
+        49  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver.rb
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/io/tcp.rb
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/body.rb
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/buffer.rb
+        32  /usr/local/lib/ruby/3.4.0/uri/common.rb
+        32  /usr/local/lib/ruby/3.4.0/uri/generic.rb
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/chainable.rb
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request/body.rb
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response.rb
+        16  /usr/local/lib/ruby/3.4.0/uri/http.rb
+         1  /app/app.rb
+         1  /usr/local/bundle/gems/puma-6.6.1/lib/puma/cluster/worker.rb
+         1  /usr/local/lib/ruby/3.4.0/socket.rb
+
+retained objects by location
+-----------------------------------
+       656  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb:6
+       496  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb:31
+        98  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+        97  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+        96  <internal:hash>:38
+        48  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver.rb:98
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:582
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:65
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:169
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:31
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/buffer.rb:19
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/session.rb:273
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/timers.rb:28
+        32  /usr/local/lib/ruby/3.4.0/uri/common.rb:159
+        32  /usr/local/lib/ruby/3.4.0/uri/generic.rb:335
+        32  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:104
+        32  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:107
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb:33
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb:58
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/chainable.rb:53
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:563
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:58
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:61
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:62
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:63
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:820
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:898
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:117
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:119
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:21
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:23
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:24
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:25
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:19
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:45
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:9
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/io/tcp.rb:18
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/io/tcp.rb:183
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:126
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:26
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:65
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:157
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:24
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:25
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:26
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:27
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:29
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:30
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request.rb:109
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request.rb:233
+
+retained objects by class
+-----------------------------------
+       800  Proc
+       754  Array
+       328  String
+       162  Hash
+        48  IPAddr
+        48  Method
+        32  HTTPX::Buffer
+        32  HTTPX::Headers(plugin)
+        32  HTTPX::Timers::Timer
+        32  Thread::ConditionVariable
+        32  Thread::Mutex
+        32  URI::HTTP
+        16  HTTPX::Connection(plugin)
+        16  HTTPX::Connection::HTTP1
+        16  HTTPX::Parser::HTTP1
+        16  HTTPX::Pool(plugin)
+        16  HTTPX::Request(plugin)
+        16  HTTPX::Request::Body(plugin)
+        16  HTTPX::Response(plugin)
+        16  HTTPX::Response::Body(plugin)
+        16  HTTPX::Response::Buffer
+        16  HTTPX::Session
+        16  HTTPX::TCP
+        16  HTTPX::Timers::Interval
+        16  Socket
+        16  StringIO
+
+
+Allocated String Report
+-----------------------------------
+       144  ""
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb:33
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb:58
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:125
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:126
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:79
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request.rb:233
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/native.rb:42
+        16  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:107
+
+       144  "4000"
+        80  /usr/local/lib/ruby/3.4.0/uri/http.rb:101
+        32  /usr/local/lib/ruby/3.4.0/uri/generic.rb:1364
+        32  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:105
+
+       113  "http://porto1:4000"
+        64  /usr/local/lib/ruby/3.4.0/uri/http.rb:120
+        32  /usr/local/lib/ruby/3.4.0/uri/generic.rb:1343
+        16  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:85
+         1  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:78
+
+        96  "1"
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:119
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:346
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:65
+
+        80  "0"
+        48  /usr/local/lib/ruby/3.4.0/ipaddr.rb:709
+        32  /usr/local/lib/ruby/3.4.0/ipaddr.rb:784
+
+        80  "172"
+        48  /usr/local/lib/ruby/3.4.0/ipaddr.rb:709
+        32  /usr/local/lib/ruby/3.4.0/ipaddr.rb:784
+
+        80  "172.21.0.2"
+        48  /usr/local/lib/ruby/3.4.0/ipaddr.rb:657
+        32  /usr/local/lib/ruby/3.4.0/ipaddr.rb:784
+
+        80  "2"
+        48  /usr/local/lib/ruby/3.4.0/ipaddr.rb:709
+        32  /usr/local/lib/ruby/3.4.0/ipaddr.rb:784
+
+        80  "21"
+        48  /usr/local/lib/ruby/3.4.0/ipaddr.rb:709
+        32  /usr/local/lib/ruby/3.4.0/ipaddr.rb:784
+
+        80  "porto1:4000"
+        80  /usr/local/lib/ruby/3.4.0/uri/http.rb:101
+
+        65  "connection"
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+        17  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+
+        64  "\x02\x00\x0F\xA0\xAC\x15\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00"
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/io/tcp.rb:99
+        32  /usr/local/lib/ruby/3.4.0/socket.rb:1639
+
+        64  "accept"
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+
+        64  "content-type"
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:106
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+
+        64  "http"
+        32  /usr/local/lib/ruby/3.4.0/uri/generic.rb:335
+        32  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:87
+
+        48  "1.1"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:119
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:346
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:62
+
+        48  "Accept"
+        48  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+
+        48  "Connection"
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:106
+
+        48  "close"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:260
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:71
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+
+        48  "content-length"
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+
+        48  "porto1"
+        32  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:104
+        16  /usr/local/lib/ruby/3.4.0/ipaddr.rb:657
+
+        48  "text/html;charset=utf-8"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:71
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response.rb:233
+
+        48  "utf-8"
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response.rb:234
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response.rb:233
+
+        48  "x-content-type-options"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:106
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+
+        48  "x-frame-options"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:106
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+
+        48  "x-xss-protection"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:106
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+
+        32  "/price"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request.rb:196
+        16  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:107
+
+        32  "41"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:71
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+
+        32  "Connection: close\r\n"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:386
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:79
+
+        32  "HTTP"
+        32  /usr/local/lib/ruby/3.4.0/uri/common.rb:151
+
+        32  "Host"
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+
+        32  "accept-encoding"
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+
+        32  "content-type: text/html;charset=utf-8\r\n"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:79
+
+        32  "user-agent"
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+
+        32  "x-xss-protection: 1; mode=block\r\n"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:79
+
+        17  "http://porto1:4000/price"
+        16  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:85
+         1  /app/app.rb:145
+
+        16  "1; mode=block"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+
+        16  "Accept-Encoding"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+
+        16  "Accept-Encoding: gzip, deflate\r\n"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:386
+
+        16  "Content-Length"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:106
+
+        16  "Content-Length: 41\r\n"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:79
+
+        16  "Host: porto1:4000\r\n"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:386
+
+        16  "POST /price HTTP/1.1"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:346
+
+        16  "SAMEORIGIN"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+
+        16  "User-Agent: httpx.rb/1.5.1\r\n"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:386
+
+        16  "expect"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+
+        16  "host"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+
+        16  "nosniff"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+
+        16  "transfer-encoding"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+
+        16  "x-content-type-options: nosniff\r\n"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:79
+
+
+Retained String Report
+-----------------------------------
+        80  ""
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb:33
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb:58
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:126
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request.rb:233
+        16  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:107
+
+        32  "http"
+        32  /usr/local/lib/ruby/3.4.0/uri/generic.rb:335
+
+        32  "porto1"
+        32  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:104
+
+        17  "close"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+         1  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:260
+
+        17  "http://porto1:4000"
+        16  /usr/local/lib/ruby/3.4.0/uri/http.rb:120
+         1  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:78
+
+        16  "/price"
+        16  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:107
+
+        16  "1.1"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:119
+
+        16  "1; mode=block"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+
+        16  "41"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+
+        16  "POST"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request.rb:71
+
+        16  "SAMEORIGIN"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+
+        16  "nosniff"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+
+        16  "text/html;charset=utf-8"
+        16  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+
+         5  "Toma teu pre\xC3\xA7o 2025-08-24 22:35:22 +0000"
+         5  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/buffer.rb:19
+
+         5  "Toma teu pre\xC3\xA7o 2025-08-24 22:35:23 +0000"
+         5  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/buffer.rb:19
+
+         5  "Toma teu pre\xC3\xA7o 2025-08-24 22:35:24 +0000"
+         5  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/buffer.rb:19
+
+         1  "\x02\x00\x0F\xA0\xAC\x15\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00"
+         1  /usr/local/lib/ruby/3.4.0/socket.rb:1639
+
+         1  "Toma teu pre\xC3\xA7o 2025-08-24 22:35:25 +0000"
+         1  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/buffer.rb:19
+
+         1  "connection"
+         1  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+
+         1  "content-type: text/html;charset=utf-8\r\n"
+         1  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+
+         1  "http://porto1:4000/price"
+         1  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:85
+
+         1  "p10{ \"backlog\":0, \"running\":5, \"pool_capacity\":4, \"max_threads\":5, \"requests_count\":3, \"busy_threads\":1 }\n"
+         1  /usr/local/bundle/gems/puma-6.6.1/lib/puma/cluster/worker.rb:137
+
+         1  "x-xss-protection: 1; mode=block\r\n"
+         1  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+

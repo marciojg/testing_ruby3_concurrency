@@ -1,0 +1,1272 @@
+Total allocated: 6554503 bytes (61632 objects)
+Total retained:  1151283 bytes (1107 objects)
+
+allocated memory by gem
+-----------------------------------
+   2224178  httpx-1.5.1
+   1064576  timeout
+    875776  net
+    446408  rest-client-2.1.0
+    360544  uri
+    359840  async-2.27.4
+    296944  resolv
+    138288  io-event-1.12.1
+     88176  io-stream-0.10.0
+     67200  protocol-http1-0.34.1
+     63395  http-cookie-1.0.8
+     57488  other
+     54720  app/app
+     53480  ipaddr
+     52440  socket
+     52064  netrc-0.11.0
+     47952  protocol-http-0.53.0
+     45096  http-accept-1.7.0
+     44696  async-http-0.91.0
+     35344  benchmark-0.4.1
+     29184  set
+     27264  mime-types-3.7.0
+     20472  console-1.33.0
+     15680  fiber-annotation-0.2.0
+      9448  io-endpoint-0.15.2
+      6528  monitor
+      6080  puma-6.6.1
+      5464  parallel-1.27.0
+      2096  async-pool-0.11.0
+      1682  rubygems
+      1320  json-2.13.2
+       640  securerandom
+        40  sinatra-4.1.1
+
+allocated memory by file
+-----------------------------------
+   1064576  /usr/local/lib/ruby/3.4.0/timeout.rb
+    617010  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb
+    327872  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb
+    320912  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb
+    319768  /usr/local/lib/ruby/3.4.0/net/http/header.rb
+    296944  /usr/local/lib/ruby/3.4.0/resolv.rb
+    288008  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb
+    264960  /usr/local/lib/ruby/3.4.0/net/http/response.rb
+    213360  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb
+    204024  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb
+    188096  /usr/local/bundle/gems/async-2.27.4/lib/async/task.rb
+    164880  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb
+    127792  /usr/local/lib/ruby/3.4.0/net/http.rb
+    119624  /usr/local/bundle/gems/io-event-1.12.1/lib/io/event/selector.rb
+    114176  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request.rb
+    109760  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb
+    104320  /usr/local/bundle/gems/async-2.27.4/lib/async/stop.rb
+     99072  /usr/local/lib/ruby/3.4.0/net/http/generic_request.rb
+     71584  /usr/local/lib/ruby/3.4.0/uri/generic.rb
+     67600  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb
+     67200  /usr/local/bundle/gems/protocol-http1-0.34.1/lib/protocol/http1/connection.rb
+     64184  /usr/local/lib/ruby/3.4.0/net/protocol.rb
+     54720  /app/app.rb
+     53480  /usr/local/lib/ruby/3.4.0/ipaddr.rb
+     52440  /usr/local/lib/ruby/3.4.0/socket.rb
+     52064  /usr/local/bundle/gems/netrc-0.11.0/lib/netrc.rb
+     50128  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb
+     50024  /usr/local/bundle/gems/async-2.27.4/lib/async/scheduler.rb
+     42000  /usr/local/lib/ruby/3.4.0/uri/common.rb
+     40656  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/io/tcp.rb
+     40056  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/session.rb
+     39696  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request/body.rb
+     39040  /usr/local/bundle/gems/protocol-http-0.53.0/lib/protocol/http/headers.rb
+     36608  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response.rb
+     35394  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar.rb
+     35344  /usr/local/bundle/gems/benchmark-0.4.1/lib/benchmark.rb
+     33920  /usr/local/bundle/gems/io-stream-0.10.0/lib/io/stream/shim/buffered.rb
+     33600  /usr/local/lib/ruby/3.4.0/uri/http.rb
+     33576  /usr/local/bundle/gems/http-accept-1.7.0/lib/http/accept/media_types.rb
+     31592  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/native.rb
+     29280  <internal:hash>
+     29184  /usr/local/lib/ruby/3.4.0/set.rb
+     27304  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/multi.rb
+     27264  /usr/local/bundle/gems/mime-types-3.7.0/lib/mime/types.rb
+     26688  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/options.rb
+     23760  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/selector.rb
+     20976  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar/hash_store.rb
+     20480  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/body.rb
+     19376  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/resolver.rb
+     17600  /usr/local/bundle/gems/io-event-1.12.1/lib/io/event/timers.rb
+
+allocated memory by location
+-----------------------------------
+   1049272  /usr/local/lib/ruby/3.4.0/timeout.rb:95
+    614210  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb:33
+    176320  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb:6
+    148176  /usr/local/bundle/gems/async-2.27.4/lib/async/task.rb:425
+    138752  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb:31
+    119624  /usr/local/bundle/gems/io-event-1.12.1/lib/io/event/selector.rb:39
+    115200  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+    112560  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:85
+    103040  /usr/local/bundle/gems/async-2.27.4/lib/async/stop.rb:17
+    102400  /usr/local/lib/ruby/3.4.0/resolv.rb:426
+     95072  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+     90624  /usr/local/lib/ruby/3.4.0/net/http/response.rb:173
+     74880  /usr/local/lib/ruby/3.4.0/net/http/header.rb:494
+     71424  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request.rb:241
+     67968  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:561
+     62720  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+     47600  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:79
+     46400  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:181
+     42240  /usr/local/lib/ruby/3.4.0/net/protocol.rb:269
+     41376  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+     40320  /usr/local/lib/ruby/3.4.0/socket.rb:231
+     38400  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:136
+     36400  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:108
+     33920  /usr/local/bundle/gems/io-stream-0.10.0/lib/io/stream/shim/buffered.rb:30
+     33600  /usr/local/lib/ruby/3.4.0/uri/common.rb:159
+     33600  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:102
+     33600  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:135
+     33480  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+     33440  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:106
+     33440  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:83
+     32720  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:154
+     32640  /usr/local/lib/ruby/3.4.0/resolv.rb:1631
+     31488  /usr/local/lib/ruby/3.4.0/net/http.rb:1161
+     31416  /usr/local/lib/ruby/3.4.0/net/http.rb:1101
+     31336  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:60
+     29280  <internal:hash>:38
+     28800  /usr/local/lib/ruby/3.4.0/net/http/generic_request.rb:407
+     28160  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:386
+     27160  /usr/local/lib/ruby/3.4.0/net/http/header.rb:281
+     25616  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request/body.rb:14
+     25600  /usr/local/bundle/gems/async-2.27.4/lib/async/task.rb:208
+     25600  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:69
+     23808  /usr/local/lib/ruby/3.4.0/net/http.rb:1149
+     23808  /usr/local/lib/ruby/3.4.0/net/http/header.rb:618
+     23040  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:184
+     23040  /usr/local/lib/ruby/3.4.0/net/http/header.rb:225
+     21888  /usr/local/bundle/gems/async-2.27.4/lib/async/scheduler.rb:525
+     21120  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:187
+     21120  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:559
+     21120  /usr/local/lib/ruby/3.4.0/net/http/header.rb:226
+
+allocated memory by class
+-----------------------------------
+   2172732  String
+   1050952  Thread
+    763232  Hash
+    721640  Array
+    353352  MatchData
+    293760  Proc
+    186504  Fiber
+    169600  Addrinfo
+    119624  IO::Event::Selector::EPoll
+     92160  Thread::Backtrace::Location
+     71680  Range
+     67200  Enumerator
+     61920  URI::HTTP
+     31416  Net::HTTP
+     18720  Method
+     16880  File
+     15680  Async::Task
+     15360  RestClient::Request
+     14400  Thread::Mutex
+     12400  Socket
+     11904  TCPSocket
+     11520  Time
+     11224  HTTPX::Resolver::Native
+     10848  HTTPX::Connection(plugin)
+     10240  HTTPX::Request(plugin)
+     10240  HTTPX::Response(plugin)
+     10240  HTTPX::Response::Body(plugin)
+      8960  StringIO
+      8064  RestClient::Response
+      7720  Net::BufferedIO
+      7680  Net::HTTP::Post
+      7680  Net::HTTPOK
+      6520  Thread::Backtrace
+      5760  JSON::Ext::Generator::State
+      5616  Class
+      5520  IPAddr
+      5480  HTTPX::Parser::HTTP1
+      5440  HTTPX::Connection::HTTP1
+      5440  HTTPX::Pool(plugin)
+      5440  HTTPX::TCP
+      5440  Resolv::DNS::Message
+      5360  IO::Stream::StringBuffer
+      5160  HTTPX::Timers::Timer
+      5136  HTTPX::Request::Body(plugin)
+      5120  HTTPX::Headers(plugin)
+      5120  HTTPX::Response::Buffer
+      4480  IO::Event::Timers::Handle
+      4416  Thread::ConditionVariable
+      4224  StringScanner
+      4216  UDPSocket
+
+allocated objects by gem
+-----------------------------------
+     23219  httpx-1.5.1
+     12170  net
+      7648  rest-client-2.1.0
+      4069  uri
+      2529  async-2.27.4
+      2417  resolv
+       992  netrc-0.11.0
+       846  protocol-http1-0.34.1
+       823  ipaddr
+       724  protocol-http-0.53.0
+       716  other
+       680  io-stream-0.10.0
+       627  http-accept-1.7.0
+       602  http-cookie-1.0.8
+       528  mime-types-3.7.0
+       495  app/app
+       358  benchmark-0.4.1
+       340  async-http-0.91.0
+       332  io-event-1.12.1
+       314  socket
+       231  set
+       213  console-1.33.0
+       196  fiber-annotation-0.2.0
+       153  timeout
+       101  puma-6.6.1
+        96  monitor
+        67  io-endpoint-0.15.2
+        58  parallel-1.27.0
+        33  json-2.13.2
+        24  async-pool-0.11.0
+        16  securerandom
+        14  rubygems
+         1  sinatra-4.1.1
+
+allocated objects by file
+-----------------------------------
+      6389  /usr/local/lib/ruby/3.4.0/net/http/header.rb
+      5147  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb
+      4761  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb
+      4106  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb
+      3921  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb
+      3264  /usr/local/lib/ruby/3.4.0/net/http/response.rb
+      2636  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb
+      2417  /usr/local/lib/ruby/3.4.0/resolv.rb
+      2262  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb
+      1680  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb
+      1350  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb
+      1295  /usr/local/lib/ruby/3.4.0/uri/generic.rb
+      1216  /usr/local/bundle/gems/async-2.27.4/lib/async/stop.rb
+      1200  /usr/local/lib/ruby/3.4.0/net/http/generic_request.rb
+       994  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request.rb
+       992  /usr/local/bundle/gems/netrc-0.11.0/lib/netrc.rb
+       846  /usr/local/bundle/gems/protocol-http1-0.34.1/lib/protocol/http1/connection.rb
+       835  /usr/local/lib/ruby/3.4.0/net/protocol.rb
+       823  /usr/local/lib/ruby/3.4.0/ipaddr.rb
+       714  /usr/local/bundle/gems/async-2.27.4/lib/async/task.rb
+       674  /usr/local/lib/ruby/3.4.0/uri/http.rb
+       560  /usr/local/bundle/gems/protocol-http-0.53.0/lib/protocol/http/headers.rb
+       528  /usr/local/bundle/gems/mime-types-3.7.0/lib/mime/types.rb
+       506  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/session.rb
+       495  /app/app.rb
+       483  /usr/local/bundle/gems/http-accept-1.7.0/lib/http/accept/media_types.rb
+       482  /usr/local/lib/ruby/3.4.0/net/http.rb
+       449  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response.rb
+       420  /usr/local/lib/ruby/3.4.0/uri/common.rb
+       416  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request/body.rb
+       407  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb
+       399  /usr/local/bundle/gems/async-2.27.4/lib/async/scheduler.rb
+       394  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/io/tcp.rb
+       376  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb
+       373  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar.rb
+       366  <internal:hash>
+       358  /usr/local/bundle/gems/benchmark-0.4.1/lib/benchmark.rb
+       358  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/native.rb
+       334  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/timers.rb
+       314  /usr/local/lib/ruby/3.4.0/socket.rb
+       300  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/selector.rb
+       294  /usr/local/bundle/gems/io-event-1.12.1/lib/io/event/timers.rb
+       274  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/resolver.rb
+       256  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response/body.rb
+       256  /usr/local/bundle/gems/io-stream-0.10.0/lib/io/stream/readable.rb
+       235  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/multi.rb
+       231  /usr/local/lib/ruby/3.4.0/set.rb
+       228  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/options.rb
+       216  /usr/local/bundle/gems/io-stream-0.10.0/lib/io/stream/string_buffer.rb
+       196  /usr/local/bundle/gems/fiber-annotation-0.2.0/lib/fiber/annotation.rb
+
+allocated objects by location
+-----------------------------------
+      2305  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+      2204  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb:6
+      1824  /usr/local/lib/ruby/3.4.0/net/http/header.rb:494
+      1582  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb:31
+      1488  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+      1392  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:561
+      1280  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+      1184  /usr/local/bundle/gems/async-2.27.4/lib/async/stop.rb:17
+       966  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:181
+       864  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:136
+       864  /usr/local/lib/ruby/3.4.0/net/http/response.rb:173
+       836  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+       836  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:79
+       836  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:83
+       709  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+       708  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:106
+       581  /usr/local/lib/ruby/3.4.0/net/http/header.rb:281
+       528  /usr/local/lib/ruby/3.4.0/net/http/header.rb:225
+       482  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:154
+       480  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:184
+       480  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:187
+       480  /usr/local/lib/ruby/3.4.0/net/http/header.rb:203
+       480  /usr/local/lib/ruby/3.4.0/net/http/response.rb:175
+       460  /usr/local/lib/ruby/3.4.0/uri/http.rb:101
+       432  /usr/local/lib/ruby/3.4.0/net/protocol.rb:269
+       420  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:85
+       390  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:108
+       384  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:386
+       384  /usr/local/lib/ruby/3.4.0/net/http/header.rb:226
+       366  <internal:hash>:38
+       358  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection.rb:233
+       340  /usr/local/lib/ruby/3.4.0/ipaddr.rb:784
+       336  /usr/local/bundle/gems/mime-types-3.7.0/lib/mime/types.rb:149
+       336  /usr/local/lib/ruby/3.4.0/net/http/header.rb:464
+       336  /usr/local/lib/ruby/3.4.0/net/http/header.rb:725
+       336  /usr/local/lib/ruby/3.4.0/net/http/header.rb:740
+       320  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/callbacks.rb:19
+       306  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb:33
+       294  /usr/local/bundle/gems/async-2.27.4/lib/async/task.rb:425
+       290  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:43
+       288  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:111
+       288  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:180
+       288  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:563
+       288  /usr/local/lib/ruby/3.4.0/net/http/generic_request.rb:407
+       288  /usr/local/lib/ruby/3.4.0/net/http/header.rb:278
+       288  /usr/local/lib/ruby/3.4.0/net/http/header.rb:487
+       288  /usr/local/lib/ruby/3.4.0/net/http/header.rb:618
+       258  /usr/local/lib/ruby/3.4.0/uri/generic.rb:335
+       258  /usr/local/lib/ruby/3.4.0/uri/generic.rb:516
+       258  /usr/local/lib/ruby/3.4.0/uri/generic.rb:543
+
+allocated objects by class
+-----------------------------------
+     29247  String
+     14562  Array
+      4160  Hash
+      3672  Proc
+      1792  Range
+      1725  MatchData
+      1152  Thread::Backtrace::Location
+       420  Enumerator
+       387  URI::HTTP
+       234  Method
+       200  Thread::Mutex
+       163  Thread::Backtrace
+       144  Time
+       133  Fiber
+       129  HTTPX::Timers::Timer
+       128  HTTPX::Headers(plugin)
+       112  IO::Event::Timers::Handle
+       112  StringIO
+       102  HTTPX::Buffer
+        99  Resolv::DNS::Name
+        98  Async::Task
+        96  Set
+        80  Addrinfo
+        69  IPAddr
+        69  Thread::ConditionVariable
+        68  Resolv::DNS::Label::Str
+        64  Float
+        64  HTTPX::ContentType
+        64  HTTPX::Request(plugin)
+        64  HTTPX::Request::Body(plugin)
+        64  HTTPX::Response(plugin)
+        64  HTTPX::Response::Body(plugin)
+        64  HTTPX::Response::Buffer
+        50  Socket
+        48  Errno::ENOENT
+        48  HTTP::Accept::MediaTypes::MediaRange
+        48  HTTP::CookieJar
+        48  HTTP::CookieJar::HashStore
+        48  IO::Stream::StringBuffer
+        48  JSON::Ext::Generator::State
+        48  Monitor
+        48  Net::BufferedIO
+        48  Net::HTTP
+        48  Net::HTTP::Post
+        48  Net::HTTPOK
+        48  Netrc
+        48  Netrc::TokenArray
+        48  Protocol::HTTP::Header::Split
+        48  RestClient::Payload::Base
+        48  RestClient::Request
+
+retained memory by gem
+-----------------------------------
+   1050648  timeout
+     35168  rest-client-2.1.0
+     23328  net
+     13875  http-cookie-1.0.8
+      4760  uri
+      4720  app/app
+      4200  resolv
+      3072  other
+      3024  parallel-1.27.0
+      2176  monitor
+      1792  set
+      1552  async-http-0.91.0
+       816  httpx-1.5.1
+       656  async-pool-0.11.0
+       536  console-1.33.0
+       480  rubygems
+       200  io-endpoint-0.15.2
+       200  puma-6.6.1
+        40  async-2.27.4
+        40  protocol-http-0.53.0
+
+retained memory by file
+-----------------------------------
+   1050648  /usr/local/lib/ruby/3.4.0/timeout.rb
+     17440  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb
+     13184  /usr/local/lib/ruby/3.4.0/net/http/response.rb
+      7360  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb
+      6680  /usr/local/lib/ruby/3.4.0/net/http/header.rb
+      6466  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar.rb
+      4720  /app/app.rb
+      4488  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar/hash_store.rb
+      4200  /usr/local/lib/ruby/3.4.0/resolv.rb
+      3968  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/response.rb
+      3384  /usr/local/lib/ruby/3.4.0/net/protocol.rb
+      3024  /usr/local/bundle/gems/parallel-1.27.0/lib/parallel.rb
+      2921  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar/abstract_store.rb
+      2560  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient.rb
+      2560  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/payload.rb
+      2560  /usr/local/lib/ruby/3.4.0/uri/common.rb
+      2560  <internal:timev>
+      2176  /usr/local/lib/ruby/3.4.0/monitor.rb
+      1792  /usr/local/lib/ruby/3.4.0/set.rb
+      1360  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb
+      1280  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/platform.rb
+       840  /usr/local/lib/ruby/3.4.0/uri/generic.rb
+       656  /usr/local/bundle/gems/async-pool-0.11.0/lib/async/pool/controller.rb
+       512  /usr/local/bundle/gems/async-http-0.91.0/lib/async/http/endpoint.rb
+       512  <internal:thread_sync>
+       480  <internal:/usr/local/lib/ruby/3.4.0/rubygems/core_ext/kernel_require.rb>
+       440  /usr/local/bundle/gems/async-http-0.91.0/lib/async/http/internet.rb
+       416  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/session.rb
+       400  /usr/local/bundle/gems/async-http-0.91.0/lib/async/http/client.rb
+       200  /usr/local/bundle/gems/async-http-0.91.0/lib/async/http/internet/instance.rb
+       200  /usr/local/bundle/gems/console-1.33.0/lib/console/logger.rb
+       200  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver.rb
+       200  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/native.rb
+       200  /usr/local/bundle/gems/io-endpoint-0.15.2/lib/io/endpoint/host_endpoint.rb
+       160  /usr/local/bundle/gems/console-1.33.0/lib/console/filter.rb
+       160  /usr/local/bundle/gems/puma-6.6.1/lib/puma/cluster/worker.rb
+        96  /usr/local/bundle/gems/console-1.33.0/lib/console/config.rb
+        80  /usr/local/lib/ruby/3.4.0/net/http.rb
+        40  /usr/local/bundle/gems/async-2.27.4/lib/async/semaphore.rb
+        40  /usr/local/bundle/gems/console-1.33.0/lib/console/format.rb
+        40  /usr/local/bundle/gems/console-1.33.0/lib/console/output/default.rb
+        40  /usr/local/bundle/gems/protocol-http-0.53.0/lib/protocol/http/accept_encoding.rb
+        40  /usr/local/bundle/gems/puma-6.6.1/lib/puma/reactor.rb
+
+retained memory by location
+-----------------------------------
+   1049272  /usr/local/lib/ruby/3.4.0/timeout.rb:95
+      5120  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:63
+      4480  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+      3968  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/response.rb:50
+      3840  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:187
+      3480  /usr/local/lib/ruby/3.4.0/net/http/header.rb:281
+      3384  /usr/local/lib/ruby/3.4.0/net/protocol.rb:146
+      2920  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar.rb:8
+      2640  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:154
+      2560  /app/app.rb:86
+      2560  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar/hash_store.rb:35
+      2560  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient.rb:70
+      2560  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:180
+      2560  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:114
+      2560  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:389
+      2560  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:75
+      2560  /usr/local/lib/ruby/3.4.0/net/http/header.rb:186
+      2560  /usr/local/lib/ruby/3.4.0/net/http/response.rb:148
+      2560  /usr/local/lib/ruby/3.4.0/net/http/response.rb:290
+      2560  /usr/local/lib/ruby/3.4.0/uri/common.rb:159
+      2560  <internal:timev>:265
+      2226  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar.rb:0
+      2200  /usr/local/bundle/gems/parallel-1.27.0/lib/parallel.rb:219
+      2176  /usr/local/lib/ruby/3.4.0/monitor.rb:237
+      1920  /usr/local/lib/ruby/3.4.0/net/http/response.rb:161
+      1792  /usr/local/lib/ruby/3.4.0/set.rb:601
+      1768  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar/abstract_store.rb:5
+      1664  /usr/local/lib/ruby/3.4.0/net/http/response.rb:652
+      1280  /app/app.rb:84
+      1280  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar.rb:38
+      1280  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/payload.rb:65
+      1280  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/platform.rb:46
+      1280  /usr/local/lib/ruby/3.4.0/resolv.rb:209
+      1128  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar/hash_store.rb:15
+      1024  /usr/local/lib/ruby/3.4.0/timeout.rb:168
+       993  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar/abstract_store.rb:0
+       960  /usr/local/lib/ruby/3.4.0/resolv.rb:212
+       840  /usr/local/lib/ruby/3.4.0/resolv.rb:211
+       800  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar/hash_store.rb:0
+       680  /usr/local/lib/ruby/3.4.0/uri/generic.rb:335
+       680  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:104
+       680  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:107
+       640  /app/app.rb:85
+       640  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:35
+       640  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/payload.rb:21
+       640  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/payload.rb:80
+       640  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:339
+       640  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:574
+       640  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:648
+       640  /usr/local/lib/ruby/3.4.0/net/http/header.rb:226
+
+retained memory by class
+-----------------------------------
+   1050952  Thread
+     29664  Hash
+     27304  String
+      6072  Array
+      5616  Class
+      5440  URI::HTTP
+      5120  RestClient::Request
+      3384  Fiber
+      2688  RestClient::Response
+      2560  Net::HTTPOK
+      2560  Time
+      1779  Regexp
+      1440  Thread::Mutex
+      1280  HTTP::CookieJar::HashStore
+      1280  StringIO
+      1024  Monitor
+       720  Proc
+       640  HTTP::CookieJar
+       640  RestClient::Payload::Base
+       160  Async::Pool::Controller
+       120  Symbol
+        96  Console::Logger
+        80  Async::HTTP::Client
+        80  Async::Semaphore
+        80  Parallel::JobFactory
+        80  Timeout::Request
+        64  Thread::ConditionVariable
+        40  Async::HTTP::Endpoint
+        40  Async::HTTP::Internet
+        40  Async::List
+        40  Console::Format::Safe
+        40  Console::Output::Failure
+        40  Console::Output::Serialized
+        40  IO::Endpoint::HostEndpoint
+        40  Protocol::HTTP::AcceptEncoding
+        40  Resolv::DNS::Label::Str
+
+retained objects by gem
+-----------------------------------
+       362  rest-client-2.1.0
+       313  net
+        90  resolv
+        82  http-cookie-1.0.8
+        68  uri
+        50  app/app
+        34  other
+        32  monitor
+        15  parallel-1.27.0
+        14  async-http-0.91.0
+        11  timeout
+         7  async-pool-0.11.0
+         7  httpx-1.5.1
+         7  set
+         6  console-1.33.0
+         3  rubygems
+         2  io-endpoint-0.15.2
+         2  puma-6.6.1
+         1  async-2.27.4
+         1  protocol-http-0.53.0
+
+retained objects by file
+-----------------------------------
+       192  /usr/local/lib/ruby/3.4.0/net/http/response.rb
+       132  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb
+       118  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb
+       117  /usr/local/lib/ruby/3.4.0/net/http/header.rb
+        90  /usr/local/lib/ruby/3.4.0/resolv.rb
+        50  /app/app.rb
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/payload.rb
+        38  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar.rb
+        34  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb
+        33  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar/hash_store.rb
+        32  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/response.rb
+        32  /usr/local/lib/ruby/3.4.0/monitor.rb
+        32  <internal:timev>
+        18  /usr/local/lib/ruby/3.4.0/uri/generic.rb
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient.rb
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/platform.rb
+        16  /usr/local/lib/ruby/3.4.0/uri/common.rb
+        15  /usr/local/bundle/gems/parallel-1.27.0/lib/parallel.rb
+        11  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar/abstract_store.rb
+        11  /usr/local/lib/ruby/3.4.0/timeout.rb
+         7  /usr/local/bundle/gems/async-pool-0.11.0/lib/async/pool/controller.rb
+         7  /usr/local/lib/ruby/3.4.0/set.rb
+         5  /usr/local/bundle/gems/async-http-0.91.0/lib/async/http/endpoint.rb
+         4  /usr/local/bundle/gems/async-http-0.91.0/lib/async/http/internet.rb
+         3  /usr/local/bundle/gems/async-http-0.91.0/lib/async/http/client.rb
+         3  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/native.rb
+         3  /usr/local/lib/ruby/3.4.0/net/protocol.rb
+         3  <internal:/usr/local/lib/ruby/3.4.0/rubygems/core_ext/kernel_require.rb>
+         2  /usr/local/bundle/gems/async-http-0.91.0/lib/async/http/internet/instance.rb
+         2  /usr/local/bundle/gems/console-1.33.0/lib/console/logger.rb
+         2  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver.rb
+         2  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/session.rb
+         2  /usr/local/bundle/gems/io-endpoint-0.15.2/lib/io/endpoint/host_endpoint.rb
+         2  <internal:thread_sync>
+         1  /usr/local/bundle/gems/async-2.27.4/lib/async/semaphore.rb
+         1  /usr/local/bundle/gems/console-1.33.0/lib/console/config.rb
+         1  /usr/local/bundle/gems/console-1.33.0/lib/console/filter.rb
+         1  /usr/local/bundle/gems/console-1.33.0/lib/console/format.rb
+         1  /usr/local/bundle/gems/console-1.33.0/lib/console/output/default.rb
+         1  /usr/local/bundle/gems/protocol-http-0.53.0/lib/protocol/http/accept_encoding.rb
+         1  /usr/local/bundle/gems/puma-6.6.1/lib/puma/cluster/worker.rb
+         1  /usr/local/bundle/gems/puma-6.6.1/lib/puma/reactor.rb
+         1  /usr/local/lib/ruby/3.4.0/net/http.rb
+
+retained objects by location
+-----------------------------------
+        96  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+        85  /usr/local/lib/ruby/3.4.0/net/http/header.rb:281
+        80  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:187
+        48  /usr/local/lib/ruby/3.4.0/net/http/response.rb:161
+        32  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/response.rb:50
+        32  /usr/local/lib/ruby/3.4.0/monitor.rb:237
+        32  /usr/local/lib/ruby/3.4.0/resolv.rb:209
+        32  <internal:timev>:265
+        24  /usr/local/lib/ruby/3.4.0/resolv.rb:212
+        21  /usr/local/lib/ruby/3.4.0/resolv.rb:211
+        18  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar.rb:0
+        18  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:154
+        17  /usr/local/lib/ruby/3.4.0/uri/generic.rb:335
+        17  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:104
+        17  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:107
+        16  /app/app.rb:84
+        16  /app/app.rb:85
+        16  /app/app.rb:86
+        16  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar.rb:38
+        16  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar/hash_store.rb:35
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient.rb:70
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:180
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:35
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/payload.rb:21
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/payload.rb:65
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/payload.rb:80
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/platform.rb:46
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:114
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:339
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:389
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:574
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:63
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:648
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:75
+        16  /usr/local/lib/ruby/3.4.0/net/http/header.rb:186
+        16  /usr/local/lib/ruby/3.4.0/net/http/header.rb:226
+        16  /usr/local/lib/ruby/3.4.0/net/http/response.rb:148
+        16  /usr/local/lib/ruby/3.4.0/net/http/response.rb:290
+        16  /usr/local/lib/ruby/3.4.0/net/http/response.rb:652
+        16  /usr/local/lib/ruby/3.4.0/uri/common.rb:159
+        15  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar/hash_store.rb:0
+         8  /usr/local/bundle/gems/parallel-1.27.0/lib/parallel.rb:219
+         7  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar/abstract_store.rb:0
+         7  /usr/local/lib/ruby/3.4.0/set.rb:601
+         6  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:181
+         4  /usr/local/lib/ruby/3.4.0/timeout.rb:168
+         3  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar.rb:8
+         3  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar/abstract_store.rb:5
+         3  /usr/local/lib/ruby/3.4.0/net/protocol.rb:146
+         3  /usr/local/lib/ruby/3.4.0/timeout.rb:95
+
+retained objects by class
+-----------------------------------
+       533  String
+       177  Hash
+       140  Array
+        34  URI::HTTP
+        32  Time
+        20  Thread::Mutex
+        16  HTTP::CookieJar
+        16  HTTP::CookieJar::HashStore
+        16  Monitor
+        16  Net::HTTPOK
+        16  RestClient::Payload::Base
+        16  RestClient::Request
+        16  RestClient::Response
+        16  StringIO
+         9  Proc
+         5  Class
+         4  Thread
+         3  Fiber
+         3  Regexp
+         3  Symbol
+         1  Async::HTTP::Client
+         1  Async::HTTP::Endpoint
+         1  Async::HTTP::Internet
+         1  Async::List
+         1  Async::Pool::Controller
+         1  Async::Semaphore
+         1  Console::Format::Safe
+         1  Console::Logger
+         1  Console::Output::Failure
+         1  Console::Output::Serialized
+         1  IO::Endpoint::HostEndpoint
+         1  Parallel::JobFactory
+         1  Protocol::HTTP::AcceptEncoding
+         1  Resolv::DNS::Label::Str
+         1  Thread::ConditionVariable
+         1  Timeout::Request
+
+
+Allocated String Report
+-----------------------------------
+       882  "content-type"
+       192  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+        96  /usr/local/lib/ruby/3.4.0/net/http/header.rb:225
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:106
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+        49  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:154
+        49  /usr/local/lib/ruby/3.4.0/net/http/header.rb:281
+        48  /usr/local/bundle/gems/protocol-http-0.53.0/lib/protocol/http/headers.rb:310
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:184
+        48  /usr/local/lib/ruby/3.4.0/net/http/generic_request.rb:42
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:203
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:262
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:464
+        48  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+        16  /usr/local/bundle/gems/protocol-http-0.53.0/lib/protocol/http/headers.rb:366
+        16  /usr/local/bundle/gems/protocol-http1-0.34.1/lib/protocol/http1/connection.rb:491
+
+       801  "content-length"
+       160  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+       144  /usr/local/lib/ruby/3.4.0/net/http/header.rb:464
+        96  /usr/local/lib/ruby/3.4.0/net/http/header.rb:225
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+        49  /usr/local/lib/ruby/3.4.0/net/http/header.rb:281
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:184
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:154
+        48  /usr/local/lib/ruby/3.4.0/net/http/generic_request.rb:42
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:203
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:262
+        32  /usr/local/bundle/gems/protocol-http-0.53.0/lib/protocol/http/headers.rb:310
+        16  /usr/local/bundle/gems/protocol-http-0.53.0/lib/protocol/http/headers.rb:366
+
+       689  "accept"
+       128  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+       128  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+        96  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:561
+        96  /usr/local/lib/ruby/3.4.0/net/http/header.rb:494
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:154
+        48  /usr/local/lib/ruby/3.4.0/net/http/generic_request.rb:42
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:203
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:225
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:464
+         1  /app/app.rb:178
+
+       676  "porto1"
+       210  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:104
+       134  /usr/local/lib/ruby/3.4.0/resolv.rb:1249
+       100  /usr/local/lib/ruby/3.4.0/resolv.rb:1240
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:226
+        48  /usr/local/lib/ruby/3.4.0/uri/generic.rb:600
+        34  /usr/local/lib/ruby/3.4.0/ipaddr.rb:657
+        34  /usr/local/lib/ruby/3.4.0/resolv.rb:1653
+        17  /usr/local/lib/ruby/3.4.0/resolv.rb:1379
+        16  /usr/local/bundle/gems/async-2.27.4/lib/async/scheduler.rb:294
+        16  /usr/local/lib/ruby/3.4.0/socket.rb:231
+        16  /usr/local/lib/ruby/3.4.0/uri/generic.rb:1334
+         2  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/native.rb:427
+         1  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/native.rb:397
+
+       652  ""
+        67  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb:33
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:125
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:79
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request.rb:233
+        48  /usr/local/bundle/gems/netrc-0.11.0/lib/netrc.rb:167
+        48  /usr/local/bundle/gems/netrc-0.11.0/lib/netrc.rb:81
+        48  /usr/local/lib/ruby/3.4.0/net/http/generic_request.rb:282
+        48  /usr/local/lib/ruby/3.4.0/net/http/response.rb:173
+        48  /usr/local/lib/ruby/3.4.0/net/protocol.rb:122
+        35  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/buffer.rb:58
+        34  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:126
+        34  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/native.rb:42
+        34  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:107
+        16  /usr/local/bundle/gems/io-stream-0.10.0/lib/io/stream/readable.rb:280
+
+       622  "4000"
+       230  /usr/local/lib/ruby/3.4.0/uri/http.rb:101
+       210  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:105
+        69  /usr/local/lib/ruby/3.4.0/uri/generic.rb:1364
+        48  /usr/local/lib/ruby/3.4.0/net/http.rb:1656
+        48  /usr/local/lib/ruby/3.4.0/net/http/generic_request.rb:26
+        17  /usr/local/bundle/gems/async-http-0.91.0/lib/async/http/endpoint.rb:148
+
+       544  "41"
+        96  /usr/local/lib/ruby/3.4.0/net/http/header.rb:618
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:71
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:187
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:226
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:278
+        48  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+        48  /usr/local/lib/ruby/3.4.0/net/protocol.rb:156
+        48  /usr/local/lib/ruby/3.4.0/net/protocol.rb:172
+        16  /usr/local/bundle/gems/protocol-http1-0.34.1/lib/protocol/http1/connection.rb:491
+        16  /usr/local/bundle/gems/protocol-http1-0.34.1/lib/protocol/http1/connection.rb:856
+
+       532  "http"
+       258  /usr/local/lib/ruby/3.4.0/uri/generic.rb:335
+       210  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:87
+        48  /usr/local/lib/ruby/3.4.0/uri/generic.rb:1493
+        16  /usr/local/lib/ruby/3.4.0/uri/generic.rb:1331
+
+       487  "porto1:4000"
+       230  /usr/local/lib/ruby/3.4.0/uri/http.rb:101
+        48  /usr/local/lib/ruby/3.4.0/net/http/generic_request.rb:223
+        48  /usr/local/lib/ruby/3.4.0/net/http/generic_request.rb:25
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:226
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:278
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:487
+        17  /usr/local/bundle/gems/async-http-0.91.0/lib/async/http/endpoint.rb:148
+
+       465  "x-content-type-options"
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:106
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+        49  /usr/local/lib/ruby/3.4.0/net/http/header.rb:281
+        48  /usr/local/bundle/gems/protocol-http-0.53.0/lib/protocol/http/headers.rb:310
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:184
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:262
+        48  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+        16  /usr/local/bundle/gems/protocol-http-0.53.0/lib/protocol/http/headers.rb:366
+        16  /usr/local/bundle/gems/protocol-http1-0.34.1/lib/protocol/http1/connection.rb:491
+
+       465  "x-frame-options"
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:106
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+        49  /usr/local/lib/ruby/3.4.0/net/http/header.rb:281
+        48  /usr/local/bundle/gems/protocol-http-0.53.0/lib/protocol/http/headers.rb:310
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:184
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:262
+        48  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+        16  /usr/local/bundle/gems/protocol-http-0.53.0/lib/protocol/http/headers.rb:366
+        16  /usr/local/bundle/gems/protocol-http1-0.34.1/lib/protocol/http1/connection.rb:491
+
+       465  "x-xss-protection"
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:106
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+        49  /usr/local/lib/ruby/3.4.0/net/http/header.rb:281
+        48  /usr/local/bundle/gems/protocol-http-0.53.0/lib/protocol/http/headers.rb:310
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:184
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:262
+        48  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+        16  /usr/local/bundle/gems/protocol-http-0.53.0/lib/protocol/http/headers.rb:366
+        16  /usr/local/bundle/gems/protocol-http1-0.34.1/lib/protocol/http1/connection.rb:491
+
+       454  "2"
+        96  /usr/local/lib/ruby/3.4.0/net/http/header.rb:618
+        68  /usr/local/lib/ruby/3.4.0/ipaddr.rb:784
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:111
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/payload.rb:80
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:193
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:226
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:487
+        34  /usr/local/lib/ruby/3.4.0/ipaddr.rb:709
+
+       433  "application/json"
+        96  /usr/local/lib/ruby/3.4.0/net/http/header.rb:226
+        96  /usr/local/lib/ruby/3.4.0/net/http/header.rb:725
+        96  /usr/local/lib/ruby/3.4.0/net/http/header.rb:740
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:193
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:487
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:707
+         1  /app/app.rb:178
+
+       432  "Accept"
+       192  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+       144  /usr/local/lib/ruby/3.4.0/net/http/header.rb:494
+        96  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:561
+
+       432  "json"
+       192  /usr/local/bundle/gems/mime-types-3.7.0/lib/mime/types.rb:149
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:564
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:862
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:725
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:740
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:742
+
+       432  "ssl_"
+       432  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:136
+
+       400  "*/*"
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:111
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:570
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:573
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:574
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:588
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:193
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:226
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:487
+
+       384  "-"
+       240  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:181
+       144  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:561
+
+       384  "1"
+       128  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:119
+       128  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:346
+       128  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:65
+
+       369  "user-agent"
+       128  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+        49  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:154
+        48  /usr/local/lib/ruby/3.4.0/net/http/generic_request.rb:42
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:203
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:225
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:464
+
+       352  "host"
+       144  /usr/local/lib/ruby/3.4.0/net/http/header.rb:225
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+        48  /usr/local/lib/ruby/3.4.0/net/http/generic_request.rb:110
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:281
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:494
+
+       352  "text/html;charset=utf-8"
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:71
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response.rb:233
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:187
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:278
+        48  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+        16  /usr/local/bundle/gems/protocol-http1-0.34.1/lib/protocol/http1/connection.rb:491
+
+       308  "http://porto1:4000/price"
+       176  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:85
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:488
+        16  /app/app.rb:102
+        16  /app/app.rb:118
+        16  /app/app.rb:184
+        16  /app/app.rb:66
+        16  /app/app.rb:84
+         1  /app/app.rb:130
+         1  /app/app.rb:143
+         1  /app/app.rb:161
+         1  /usr/local/lib/ruby/3.4.0/uri/generic.rb:1343
+
+       288  ", "
+       240  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:187
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:574
+
+       288  "/price"
+       176  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:107
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/request.rb:196
+        48  /usr/local/lib/ruby/3.4.0/uri/http.rb:80
+
+       288  "content_type"
+        96  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:181
+        96  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:205
+        96  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:561
+
+       288  "x"
+       288  /usr/local/lib/ruby/3.4.0/net/http/response.rb:175
+
+       272  "accept-encoding: gzip, identity\r\n"
+       136  /usr/local/bundle/gems/io-stream-0.10.0/lib/io/stream/string_buffer.rb:25
+       136  /usr/local/bundle/gems/protocol-http1-0.34.1/lib/protocol/http1/connection.rb:328
+
+       272  "utf-8"
+       128  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response.rb:234
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/response.rb:233
+        48  /usr/local/bundle/gems/http-accept-1.7.0/lib/http/accept/media_types.rb:76
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/transcoder/json.rb:34
+
+       269  "http://porto1:4000"
+       166  /usr/local/lib/ruby/3.4.0/uri/http.rb:120
+        68  /usr/local/lib/ruby/3.4.0/uri/generic.rb:1343
+        34  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:85
+         1  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/pool.rb:78
+
+       240  "1.1"
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:119
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:346
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:62
+        48  /usr/local/lib/ruby/3.4.0/net/http/response.rb:161
+
+       240  "1; mode=block"
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:187
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:278
+        48  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+        16  /usr/local/bundle/gems/protocol-http-0.53.0/lib/protocol/http/header/split.rb:21
+        16  /usr/local/bundle/gems/protocol-http1-0.34.1/lib/protocol/http1/connection.rb:491
+
+       240  "SAMEORIGIN"
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:187
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:278
+        48  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+        16  /usr/local/bundle/gems/protocol-http-0.53.0/lib/protocol/http/header/split.rb:21
+        16  /usr/local/bundle/gems/protocol-http1-0.34.1/lib/protocol/http1/connection.rb:491
+
+       240  "_"
+       240  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:181
+
+       240  "nosniff"
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:187
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:278
+        48  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+        16  /usr/local/bundle/gems/protocol-http-0.53.0/lib/protocol/http/header/split.rb:21
+        16  /usr/local/bundle/gems/protocol-http1-0.34.1/lib/protocol/http1/connection.rb:491
+
+       240  "set-cookie"
+       240  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:184
+
+       227  "connection"
+       128  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+        35  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:114
+
+       224  "Host"
+       128  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+        96  /usr/local/lib/ruby/3.4.0/net/http/header.rb:494
+
+       224  "accept-encoding"
+       128  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/headers.rb:173
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:203
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:464
+
+       224  "content-type: text/html;charset=utf-8"
+       144  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+        48  /usr/local/lib/ruby/3.4.0/net/http/response.rb:173
+        16  /usr/local/bundle/gems/io-stream-0.10.0/lib/io/stream/readable.rb:280
+        16  /usr/local/bundle/gems/protocol-http1-0.34.1/lib/protocol/http1/connection.rb:490
+
+       224  "content-type: text/html;charset=utf-8\r\n"
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:79
+        48  /usr/local/lib/ruby/3.4.0/net/http/response.rb:173
+        48  /usr/local/lib/ruby/3.4.0/net/protocol.rb:269
+
+       224  "x-xss-protection: 1; mode=block\r\n"
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:110
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:79
+        48  /usr/local/lib/ruby/3.4.0/net/http/response.rb:173
+        48  /usr/local/lib/ruby/3.4.0/net/protocol.rb:269
+
+       210  "HTTP"
+       210  /usr/local/lib/ruby/3.4.0/uri/common.rb:151
+
+       208  "Content"
+        96  /usr/local/lib/ruby/3.4.0/net/http/header.rb:494
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:561
+
+       208  "Content-Length"
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/parser/http1.rb:106
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:494
+        48  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+        32  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+        16  /usr/local/bundle/gems/protocol-http1-0.34.1/lib/protocol/http1/connection.rb:491
+
+       208  "content"
+        96  /usr/local/lib/ruby/3.4.0/net/http/header.rb:494
+        64  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/connection/http1.rb:397
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:561
+
+       192  "ACCEPT"
+       144  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:565
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:563
+
+       192  "CONTENT-TYPE"
+       192  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:563
+
+       192  "rest-client/2.1.0 (linux x86_64) ruby/3.4.5p51"
+        48  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/platform.rb:46
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:193
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:226
+        48  /usr/local/lib/ruby/3.4.0/net/http/header.rb:487
+
+
+Retained String Report
+-----------------------------------
+        35  "porto1"
+        17  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:104
+        16  /usr/local/lib/ruby/3.4.0/net/http/header.rb:226
+         1  /usr/local/bundle/gems/httpx-1.5.1/lib/httpx/resolver/native.rb:397
+         1  /usr/local/lib/ruby/3.4.0/resolv.rb:1379
+
+        32  "1; mode=block"
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:187
+        16  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+
+        32  "41"
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:187
+        16  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+
+        32  "SAMEORIGIN"
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:187
+        16  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+
+        32  "nosniff"
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:187
+        16  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+
+        32  "text/html;charset=utf-8"
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:187
+        16  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+
+        17  "/price"
+        17  /usr/local/lib/ruby/3.4.0/uri/rfc3986_parser.rb:107
+
+        17  "http"
+        17  /usr/local/lib/ruby/3.4.0/uri/generic.rb:335
+
+        16  "*/*"
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:574
+
+        16  "1.1"
+        16  /usr/local/lib/ruby/3.4.0/net/http/response.rb:161
+
+        16  "2"
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/payload.rb:80
+
+        16  "200"
+        16  /usr/local/lib/ruby/3.4.0/net/http/response.rb:161
+
+        16  "OK"
+        16  /usr/local/lib/ruby/3.4.0/net/http/response.rb:161
+
+        16  "content-type: text/html;charset=utf-8"
+        16  /usr/local/lib/ruby/3.4.0/net/http/response.rb:180
+
+        16  "http://porto1:4000/price"
+        16  /app/app.rb:84
+
+        16  "post"
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:648
+
+        16  "rest-client/2.1.0 (linux x86_64) ruby/3.4.5p51"
+        16  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/platform.rb:46
+
+        16  "{}"
+        16  /app/app.rb:85
+
+         6  "Toma teu pre\xC3\xA7o 2025-08-24 22:41:23 +0000"
+         3  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/response.rb:50
+         3  /usr/local/lib/ruby/3.4.0/net/http/response.rb:652
+
+         6  "Toma teu pre\xC3\xA7o 2025-08-24 22:41:24 +0000"
+         3  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/response.rb:50
+         3  /usr/local/lib/ruby/3.4.0/net/http/response.rb:652
+
+         6  "Toma teu pre\xC3\xA7o 2025-08-24 22:41:25 +0000"
+         3  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/response.rb:50
+         3  /usr/local/lib/ruby/3.4.0/net/http/response.rb:652
+
+         6  "Toma teu pre\xC3\xA7o 2025-08-24 22:41:26 +0000"
+         3  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/response.rb:50
+         3  /usr/local/lib/ruby/3.4.0/net/http/response.rb:652
+
+         6  "Toma teu pre\xC3\xA7o 2025-08-24 22:41:27 +0000"
+         3  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/response.rb:50
+         3  /usr/local/lib/ruby/3.4.0/net/http/response.rb:652
+
+         5  "localhost"
+         4  /usr/local/lib/ruby/3.4.0/resolv.rb:209
+         1  /usr/local/lib/ruby/3.4.0/resolv.rb:212
+
+         3  "127.0.0.1"
+         2  /usr/local/lib/ruby/3.4.0/resolv.rb:209
+         1  /usr/local/lib/ruby/3.4.0/resolv.rb:211
+
+         3  "172.21.0.3"
+         2  /usr/local/lib/ruby/3.4.0/resolv.rb:209
+         1  /usr/local/lib/ruby/3.4.0/resolv.rb:211
+
+         3  "9a68013771e5"
+         2  /usr/local/lib/ruby/3.4.0/resolv.rb:209
+         1  /usr/local/lib/ruby/3.4.0/resolv.rb:212
+
+         3  "::1"
+         2  /usr/local/lib/ruby/3.4.0/resolv.rb:209
+         1  /usr/local/lib/ruby/3.4.0/resolv.rb:211
+
+         3  "fe00::"
+         2  /usr/local/lib/ruby/3.4.0/resolv.rb:209
+         1  /usr/local/lib/ruby/3.4.0/resolv.rb:211
+
+         3  "ff00::"
+         2  /usr/local/lib/ruby/3.4.0/resolv.rb:209
+         1  /usr/local/lib/ruby/3.4.0/resolv.rb:211
+
+         3  "ff02::1"
+         2  /usr/local/lib/ruby/3.4.0/resolv.rb:209
+         1  /usr/local/lib/ruby/3.4.0/resolv.rb:211
+
+         3  "ff02::2"
+         2  /usr/local/lib/ruby/3.4.0/resolv.rb:209
+         1  /usr/local/lib/ruby/3.4.0/resolv.rb:211
+
+         3  "ip6-allnodes"
+         2  /usr/local/lib/ruby/3.4.0/resolv.rb:209
+         1  /usr/local/lib/ruby/3.4.0/resolv.rb:212
+
+         3  "ip6-allrouters"
+         2  /usr/local/lib/ruby/3.4.0/resolv.rb:209
+         1  /usr/local/lib/ruby/3.4.0/resolv.rb:212
+
+         3  "ip6-localhost"
+         2  /usr/local/lib/ruby/3.4.0/resolv.rb:209
+         1  /usr/local/lib/ruby/3.4.0/resolv.rb:212
+
+         3  "ip6-localnet"
+         2  /usr/local/lib/ruby/3.4.0/resolv.rb:209
+         1  /usr/local/lib/ruby/3.4.0/resolv.rb:212
+
+         3  "ip6-loopback"
+         2  /usr/local/lib/ruby/3.4.0/resolv.rb:209
+         1  /usr/local/lib/ruby/3.4.0/resolv.rb:212
+
+         3  "ip6-mcastprefix"
+         2  /usr/local/lib/ruby/3.4.0/resolv.rb:209
+         1  /usr/local/lib/ruby/3.4.0/resolv.rb:212
+
+         2  "Toma teu pre\xC3\xA7o 2025-08-24 22:41:28 +0000"
+         1  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/response.rb:50
+         1  /usr/local/lib/ruby/3.4.0/net/http/response.rb:652
+
+         2  "content-type"
+         1  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:154
+         1  /usr/local/lib/ruby/3.4.0/net/http/header.rb:281
+
+         1  "Content-Type"
+         1  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:564
+
+         1  "User-Agent"
+         1  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:576
+
+         1  "content-length"
+         1  /usr/local/lib/ruby/3.4.0/net/http/header.rb:281
+
+         1  "invalid object: %s"
+         1  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar.rb:0
+
+         1  "rescue in implementation"
+         1  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar/abstract_store.rb:0
+
+         1  "rescue in rescue in implementation"
+         1  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar/abstract_store.rb:0
+
+         1  "user-agent"
+         1  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/request.rb:154
+
+         1  "wrong number of arguments (%d for 1-3)"
+         1  /usr/local/bundle/gems/http-cookie-1.0.8/lib/http/cookie_jar.rb:0
+
+         1  "x-frame-options"
+         1  /usr/local/lib/ruby/3.4.0/net/http/header.rb:281
+
+         1  "x_frame_options"
+         1  /usr/local/bundle/gems/rest-client-2.1.0/lib/restclient/abstract_response.rb:181
+
