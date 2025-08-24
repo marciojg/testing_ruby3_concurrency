@@ -24,7 +24,7 @@ def report_with_stackprof(method_name, &block)
   StackProf.start(mode: :cpu)
   responses = yield
   StackProf.stop
-  StackProf.results("/tmp/#{method_name}.dump")
+  StackProf.results("./tmp/#{method_name}.dump")
   responses
 end
 
@@ -41,20 +41,30 @@ post "/quote/:method" do
   "[#{params[:method]}] Executados #{responses.size} POSTs em porto/price"
 end
 
-def benchmark
-  Benchmark.bm do |x|
-    x.report { send("call_via_restclient") }
-    x.report { send("call_via_restclient_parallel") }
-    x.report { send("call_via_restclient_async") }
-    x.report { send("call_via_httpx") }
-    x.report { send("call_via_httpx_v2") }
-    x.report { send("call_via_httpx_fibers") }
-    x.report { send("call_via_httpx_async") }
-    x.report { send("call_via_async_http") }
-  end
-
+post "/benchmark" do
+  benchmark
   status 200
   "Benchmark concluído"
+end
+
+def calculate_time(method_name, &block)
+  start_time = Time.now
+  yield
+  total = Time.now - start_time
+  puts "Tempo gasto em #{method_name}: #{total.round(4)} segundos"
+end
+
+def benchmark
+  Benchmark.bmbm do |x|
+    x.report("call_via_restclient") { send("call_via_restclient") }
+    x.report("call_via_restclient_parallel") { send("call_via_restclient_parallel") }
+    x.report("call_via_restclient_async") { send("call_via_restclient_async") }
+    x.report("call_via_httpx") { send("call_via_httpx") }
+    x.report("call_via_httpx_v2") { send("call_via_httpx_v2") }
+    x.report("call_via_httpx_fibers") { send("call_via_httpx_fibers") }
+    x.report("call_via_httpx_async") { send("call_via_httpx_async") }
+    x.report("call_via_async_http") { send("call_via_async_http") }
+  end
 end
 
 # teste 1 = 16:26
